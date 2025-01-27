@@ -1,0 +1,53 @@
+.header-container {
+  position: relative;
+  text-align: center;
+  margin-bottom: 48px;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  font-size: 14px;
+  background-color: #faedcd;
+  padding: 40px 0;
+}
+
+.header-container ul {
+  display: flex;
+  justify-content: end;
+  margin: 0;
+}
+
+.logo-container {
+  position: absolute;
+  top: 18px;
+}
+
+.header-container ul {
+  display: flex;
+  flex: 1 1 500px;
+  padding: 0 30px;
+  list-style: none;
+}
+
+.header-container li {
+  min-width: 99px;
+}
+
+.header-container a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #96C5F7;
+}
+
+a.active {
+  color: #96C5F7;
+}
+
+.logo-image {
+  height: 60px;
+}
+
+.signin-container {
+  flex: 0 1 100px
+}

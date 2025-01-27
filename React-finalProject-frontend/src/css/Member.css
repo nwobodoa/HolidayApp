@@ -1,0 +1,49 @@
+.member-wrapper {
+    padding: 24px;
+    border: 1px solid #CCD5AE;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #CCD5AE;
+    flex: 0 1 250px;
+    min-width: 250px;
+    margin: 16px;
+}
+
+.member-wrapper img {
+    width: 50px;
+    border-radius: 40px;
+}
+
+.content {
+    margin: 8px 0;
+}
+
+.content.name {
+    margin-bottom: 4px;
+}
+
+.content.position {
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.content.intro {
+    margin-top: 12px;
+}
+
+.intro {
+    font-size: 14px;
+}
+
+.member-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    justify-content: center;
+    margin: 80px auto 80px;
+}
+
+.subtitle {
+    text-align: center;
+}

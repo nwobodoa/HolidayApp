@@ -1,0 +1,31 @@
+.footer-container {
+  margin: 48px auto 0;
+  text-align: center;
+  border-top: 1px solid lightgray;
+  font-size: 14px;
+  background-color: #faedcd;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #96C5F7;
+}
+
+a.active {
+  color: #96C5F7;
+}
+
+.footer-container ul {
+  display: flex;
+  justify-content: end;
+  padding: 0 30px;;
+  list-style: none;
+}
+
+.footer-container li {
+  min-width: 99px;
+}

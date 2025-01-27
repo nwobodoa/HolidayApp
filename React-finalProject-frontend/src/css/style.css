@@ -1,0 +1,113 @@
+body {
+    background: #FEFAE0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 1px auto;
+    text-align: center;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(205px, 1fr));
+  }
+  
+  .card {
+    position: relative;
+    box-sizing: border-box;
+    background: #CCD5AE;
+    border-radius: 5px;
+  }
+  
+  .card .event-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .good-deal-label {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .card .event-details {
+    padding: 1em;
+    margin-bottom: 1.5px;
+    margin-top: 10px;
+    position: relative;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .event-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 260px;
+  }
+  
+  .event-cat {
+    font-size: 14px;
+    margin-left: 5px;
+    padding: 5px;
+    float: left;
+    background-color: #E9EDC9;
+    border-radius: 10px;
+  }
+  
+  .more-btn {
+    background-color: #D4A373;
+    color:black;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+    outline: none;
+  }
+  
+  .more-btn:hover,
+  .more-btn:focus {
+    background-color: #e46f03;
+  }
+  .star-rating {
+    display: inline-block;
+    font-size: 24px;
+    color: #ffc107;
+  }
+  
+  .star {
+    color: #ffc107;
+  }
+  
+  .half-star {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 12px;
+    color: #ffc107;
+  }
+  
+  .half-star:before {
+    content: '\2605';
+    position: absolute;
+    left: -50%;
+    color: #ffc107;
+  }
+  
+  .empty-star {
+    color: #e4e5e9;
+  }
+  
+  .event-detail-wrapper {
+    text-align: center;
+  }
